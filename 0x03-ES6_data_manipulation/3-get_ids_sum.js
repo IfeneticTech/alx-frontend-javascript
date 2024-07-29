@@ -1,4 +1,4 @@
-export default function getStudentIdsSum(arr) {
-  return arr.reduce((acc, student) => acc + student.id, 0);
+export default function getStudentIdsSum(studentList) {
+	const sumOfIds = studentList.reduce((acc, student) => acc + student.id, 0);
+	return sumOfIds;
 }
-
